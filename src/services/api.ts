@@ -1,6 +1,6 @@
 import type { APIResponse } from '../types';
 
-const API_URL = 'https://openlake.app.n8n.cloud/webhook-test/efc50eb0-e00b-4389-a286-0d9ad4ef3c76';
+const API_URL = 'https://openlake.app.n8n.cloud/webhook/efc50eb0-e00b-4389-a286-0d9ad4ef3c76';
 
 export async function sendMessage(message: string): Promise<APIResponse> {
   try {
